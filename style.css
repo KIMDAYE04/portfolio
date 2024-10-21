@@ -40,7 +40,7 @@
 
 .main3-section {
   height: 2500px;
-  background: url(https://media.istockphoto.com/id/182355595/ko/%EC%82%AC%EC%A7%84/%EB%B6%84%EB%AA%85%ED%96%88%EC%8A%B5%EB%8B%88%EA%B9%8C-%EC%8A%A4%EC%B9%B4%EC%9D%B4.jpg?s=612x612&w=0&k=20&c=IiyEKTwKf3FEM7MxkxxFFQReClV0FBnJwj7bg490HfY=)
+  background: url(https://media.istockphoto.com/id/2150823955/ko/%EC%82%AC%EC%A7%84/%ED%95%B4%EC%A7%88%EB%85%98-%ED%95%98%EB%8A%98%EC%9D%98-%EA%B5%AC%EB%A6%84.jpg?s=612x612&w=0&k=20&c=7XNdFVyEKpeRBDnVOezqsVyo-IjVPG-ISZdTir1ir_k=)
     fixed;
   background-size: cover;
 }
@@ -265,7 +265,7 @@ ul {
 
 .container .inform {
   font-size: 3em;
-  font-family: sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   position: absolute;
   line-height: 2.5;
   top: 570px;
@@ -330,7 +330,7 @@ ul {
 
 .con3 .inform3 {
   font-size: 3em;
-
+  font-family: 'Gowun Batang', serif;
   position: absolute;
 
   top: 600px;
@@ -345,7 +345,7 @@ ul {
   display: flex; /* Flexbox 활성화 */
   flex-direction: column; /* 세로 방향으로 정렬 */
   justify-content: flex-end; /* 하단 정렬 */
-  padding: 30px 90px;
+  padding: 30px 105px;
 }
 
 .photo12 {
@@ -358,6 +358,7 @@ ul {
 .con3 .inform4 {
   font-size: 3em;
   position: absolute;
+  font-family: 'Gowun Batang', serif;
   top: 600px;
   left: 1000px;
   list-style-type: none;
@@ -370,7 +371,7 @@ ul {
   display: flex; /* Flexbox 활성화 */
   flex-direction: column; /* 세로 방향으로 정렬 */
   justify-content: flex-end; /* 하단 정렬 */
-  padding: 30px 150px;
+  padding: 30px 160px;
 }
 
 .photo23 {
@@ -385,6 +386,66 @@ ul {
   position: absolute;
   top: 600px;
   left: 1700px;
+  font-family: 'Gowun Batang', serif;
+
+  list-style-type: none;
+  color: black;
+  background-image: url(img/2b11cf36f8640915206b16fc594bca4c.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 600px;
+  display: flex; /* Flexbox 활성화 */
+  flex-direction: column; /* 세로 방향으로 정렬 */
+  justify-content: flex-end; /* 하단 정렬 */
+  padding: 30px 85px;
+}
+
+.con3 .content1 {
+  font-size: 2.5em;
+  position: absolute;
+  font-family: 'IBM Plex Sans KR', sans-serif;
+  top: 700px;
+  right: 370px;
+  width: 380px;
+  color: white;
+}
+
+.con3 .inform6 {
+  font-size: 3em;
+  position: absolute;
+  font-family: 'Gowun Batang', serif;
+  top: 1500px;
+  left: 300px;
+  list-style-type: none;
+  color: black;
+  background-image: url(img/2b11cf36f8640915206b16fc594bca4c.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 600px;
+  display: flex; /* Flexbox 활성화 */
+  flex-direction: column; /* 세로 방향으로 정렬 */
+  justify-content: flex-end; /* 하단 정렬 */
+  padding: 30px 70px;
+}
+
+.con3 .content2 {
+  font-size: 2.5em;
+  position: absolute;
+  font-family: 'IBM Plex Sans KR', sans-serif;
+  top: 1590px;
+  left: 380px;
+  width: 350px;
+  color: white;
+}
+
+.con3 .inform7 {
+  font-size: 3em;
+  position: absolute;
+  font-family: 'Gowun Batang', serif;
+  top: 1500px;
+  left: 1000px;
   list-style-type: none;
   color: black;
   background-image: url(img/2b11cf36f8640915206b16fc594bca4c.png);
@@ -398,72 +459,20 @@ ul {
   padding: 30px 75px;
 }
 
-.con3 .content1 {
-  font-size: 2.5em;
-  position: absolute;
-  top: 700px;
-  right: 390px;
-  width: 350px;
-  color: white;
-}
-
-.con3 .inform6 {
-  font-size: 3em;
-  position: absolute;
-  top: 1500px;
-  left: 300px;
-  list-style-type: none;
-  color: black;
-  background-image: url(img/2b11cf36f8640915206b16fc594bca4c.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 600px;
-  height: 600px;
-  display: flex; /* Flexbox 활성화 */
-  flex-direction: column; /* 세로 방향으로 정렬 */
-  justify-content: flex-end; /* 하단 정렬 */
-  padding: 30px 60px;
-}
-
-.con3 .content2 {
-  font-size: 2.5em;
-  position: absolute;
-  top: 1590px;
-  left: 390px;
-  width: 350px;
-  color: white;
-}
-
-.con3 .inform7 {
-  font-size: 3em;
-  position: absolute;
-  top: 1500px;
-  left: 1000px;
-  list-style-type: none;
-  color: black;
-  background-image: url(img/2b11cf36f8640915206b16fc594bca4c.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 600px;
-  height: 600px;
-  display: flex; /* Flexbox 활성화 */
-  flex-direction: column; /* 세로 방향으로 정렬 */
-  justify-content: flex-end; /* 하단 정렬 */
-  padding: 30px 60px;
-}
-
 .con3 .content3 {
   font-size: 2.5em;
   position: absolute;
+  font-family: 'IBM Plex Sans KR', sans-serif;
   top: 1590px;
-  left: 1090px;
-  width: 350px;
+  left: 1080px;
+  width: 370px;
   color: white;
 }
 
 .con3 .inform8 {
   font-size: 3em;
   position: absolute;
+  font-family: 'Gowun Batang', serif;
   top: 1500px;
   left: 1700px;
   list-style-type: none;
@@ -476,15 +485,16 @@ ul {
   display: flex; /* Flexbox 활성화 */
   flex-direction: column; /* 세로 방향으로 정렬 */
   justify-content: flex-end; /* 하단 정렬 */
-  padding: 30px 110px;
+  padding: 30px 130px;
 }
 
 .con3 .content4 {
   font-size: 2.5em;
   position: absolute;
+  font-family: 'IBM Plex Sans KR', sans-serif;
   top: 1590px;
-  right: 390px;
-  width: 350px;
+  right: 370px;
+  width: 380px;
   color: white;
 }
 
